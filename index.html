@@ -1,0 +1,346 @@
+<!DOCTYPE html><html dir="rtl" lang="ar" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>أثر | Athar - للمشغولات اليدوية</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .craft-grain {
+            position: relative;
+        }
+        .craft-grain::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+            opacity: 0.05;
+            pointer-events: none;
+        }
+        .glass-nav {
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary": "#5e5c55",
+                    "inverse-on-surface": "#f6efeb",
+                    "surface-variant": "#e8e1dd",
+                    "on-surface-variant": "#54433d",
+                    "background": "#fff8f3",
+                    "on-secondary-fixed": "#111f11",
+                    "on-error": "#ffffff",
+                    "tertiary-container": "#77746d",
+                    "surface": "#fff8f3",
+                    "on-tertiary-fixed": "#1d1c16",
+                    "outline": "#87736c",
+                    "surface-container-low": "#f9f2ed",
+                    "inverse-surface": "#33302d",
+                    "tertiary-fixed-dim": "#cac6be",
+                    "surface-tint": "#95482a",
+                    "on-secondary-container": "#586755",
+                    "surface-container-high": "#eee7e2",
+                    "tertiary-fixed": "#e7e2d9",
+                    "primary-fixed": "#ffdbcf",
+                    "secondary-fixed": "#d7e7d1",
+                    "on-surface": "#1e1b18",
+                    "surface-bright": "#fff8f3",
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "error": "#ba1a1a",
+                    "primary-fixed-dim": "#ffb59a",
+                    "on-secondary": "#ffffff",
+                    "primary-container": "#b15e3d",
+                    "secondary-fixed-dim": "#bbcbb6",
+                    "on-primary-container": "#fffbff",
+                    "primary": "#924628",
+                    "surface-dim": "#dfd9d4",
+                    "inverse-primary": "#ffb59a",
+                    "secondary": "#536251",
+                    "on-primary": "#ffffff",
+                    "on-tertiary-container": "#fffbff",
+                    "on-secondary-fixed-variant": "#3c4b3a",
+                    "on-primary-fixed": "#380d00",
+                    "on-background": "#1e1b18",
+                    "error-container": "#ffdad6",
+                    "on-tertiary-fixed-variant": "#494740",
+                    "outline-variant": "#dac1b9",
+                    "surface-container": "#f3ede8",
+                    "surface-container-highest": "#e8e1dd",
+                    "secondary-container": "#d4e4ce",
+                    "on-primary-fixed-variant": "#773215"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "margin-mobile": "20px",
+                    "gutter": "24px",
+                    "base": "8px",
+                    "margin-desktop": "64px",
+                    "container-max": "1280px"
+            },
+            "fontFamily": {
+                    "label-md": ["Plus Jakarta Sans"],
+                    "label-sm": ["Plus Jakarta Sans"],
+                    "headline-lg-mobile": ["Plus Jakarta Sans"],
+                    "headline-md": ["Plus Jakarta Sans"],
+                    "body-md": ["Plus Jakarta Sans"],
+                    "headline-xl": ["Plus Jakarta Sans"],
+                    "headline-lg": ["Plus Jakarta Sans"],
+                    "body-lg": ["Plus Jakarta Sans"]
+            },
+            "fontSize": {
+                    "label-md": ["14px", {"lineHeight": "1.4", "letterSpacing": "0.01em", "fontWeight": "500"}],
+                    "label-sm": ["12px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                    "headline-md": ["24px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "headline-xl": ["40px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-lg": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-background text-on-background selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="flex items-center gap-8"><div class="flex items-center gap-3">
+  <img alt="Athar Logo" class="h-12 w-auto" src="https://lh3.googleusercontent.com/aida/AP1WRLvg1xuvab3Yn0c4jwwuAZoStNu_9WDKA8SqadqUbuEeSvB0NkRlDYhr61dcQKw2vkctucnKYD3DD9bTDNI4RoTNdwdFaxdhrDjcl_x1DTfS5tCte08PQZx1u3c0rLfsAiTxJZHloFr5W1PqiOWtnmCZ0uqUb3KtHF-8xUHBXbMyCY1FoPnlZ-dFDzA4OaFUyc-IwGsoBpLkDYOGqSmjh4U6m6oKudDm7nNkOg3Nk3EXU3BsIg6aF33vD0E">
+  <span class="font-headline-md text-headline-md text-on-surface whitespace-nowrap">منصة أثر</span>
+</div>
+<div class="hidden md:flex gap-6">
+</div></div>
+
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-l from-background/40 to-background/90 z-10"></div>
+<img class="w-full h-full object-cover" data-alt="A warm and inviting workspace filled with artisanal handmade pottery and weaving tools. Natural sunlight streams through a large window, illuminating clay bowls in progress and vibrant textile yarns. The scene is styled in a high-end editorial aesthetic with soft earth tones including terracotta, sage green, and warm beige, reflecting a calm and creative atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAolWsVveC94O7ktSSY1qhsBQ18EHxcQiWqB1ROuEJHUbt8jx36LOzhvsAx0w3e8S-NjgBjp3k7JrB74sOjLIgKnheA1aQ8r9BH1RZexXdQhjn7IjqEJs94OJO71n8nQH6cVV33Z4fY3xlMxAKlQAkG2P0ngktw5ErnqaB_7gfR_wNkP566omiVrEntZ9Bw9Duh37XmalHIdeiOkL_SJD5CWmhpp7s4j_NVmAUrh9iq1YBlDsG9kH1WYPPy3NSqE1GisGUdkRfwneuw">
+</div>
+<div class="container mx-auto px-margin-mobile md:px-margin-desktop relative z-20">
+<div class="max-w-2xl space-y-8 animate-fade-in">
+<h1 class="font-headline-xl text-headline-xl text-on-surface leading-tight">
+                    أثر - حيث للإبداع <span class="text-primary">بصمة</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                    منصة مخصصة للصبايا المبدعات لعرض وتسويق مشغولاتهن اليدوية الفريدة. نحن هنا لنروي قصة كل قطعة ونبرز الأثر الذي تتركه الأيدي الماهرة.
+                </p>
+<div class="flex flex-wrap gap-4">
+<a class="inline-flex items-center justify-center px-10 py-4 bg-primary text-on-primary rounded-full font-headline-md text-headline-md hover:shadow-lg transition-all transform hover:-translate-y-1 active:scale-95" href="https://forms.google.com" target="_blank">
+                        انضمي إلينا الآن
+                    </a>
+
+</div>
+</div>
+</div>
+</header>
+<!-- Mission Section -->
+<section class="py-24 bg-surface-container-low relative overflow-hidden">
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -mr-32 -mt-32"></div>
+<div class="container mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="flex flex-col md:flex-row items-center gap-16">
+<div class="w-full md:w-1/2">
+<div class="craft-grain rounded-2xl overflow-hidden shadow-sm">
+<img class="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-700" data-alt="A focused close-up of a woman's hands expertly weaving a textured textile on a traditional wooden loom. The lighting is soft and ambient, highlighting the intricate details of the natural wool fibers. The color palette is dominated by warm beige and muted sage green, conveying a sense of heritage, patience, and professional craftsmanship in a modern light-mode setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiwyaxS5f-xd70GLhkEK1jXswcBjDI1ESGtcgghcSIeswK6XCFE9nTU86q93zCMwPX0zHPCSn_aM8fP_ZuCCObtuCS7uv4ADrFnNnJTyJ3FV41W-CHB5APXIvbrxD2nqL98OFWmTogFWuEhuRxgZTgrZtXa2y5yWLWGB9ITUIaNHfvcrhB9z2KMwxrSa1ziNvlUO_1jswlcnOxxwMlC4RwlS1xccLgOhd39eV__kGLCslcbEa7CgfpNg6G-yrFSK4VdGeG-9xiqub6">
+</div>
+</div>
+<div class="w-full md:w-1/2 space-y-6">
+<div class="inline-block px-4 py-1 bg-secondary/10 text-secondary rounded-full font-label-sm text-label-sm">
+                        رسالتنا
+                    </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">رؤيتنا</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-loose">
+                        في "أثر"، نؤمن أن العمل اليدوي ليس مجرد منتج، بل هو روح وإبداع وتاريخ. نسعى لنكون الجسر الذي يربط بين الصبايا المبدعات والجمهور المتذوق للفن، من خلال تمكين صانعات الحرف وتزويدهن بالأدوات اللازمة للتسويق والنمو في سوق العمل الاحترافي.
+                    </p>
+<div class="grid grid-cols-2 gap-4 pt-4">
+<div class="p-4 bg-white rounded-xl shadow-sm border border-outline-variant/30">
+<span class="font-headline-md text-headline-md text-primary block">+٥٠٠</span>
+<span class="font-label-md text-label-md text-on-surface-variant">مبدعة مشاركة</span>
+</div>
+<div class="p-4 bg-white rounded-xl shadow-sm border border-outline-variant/30">
+<span class="font-headline-md text-headline-md text-primary block">+١٠٠٠</span>
+<span class="font-label-md text-label-md text-on-surface-variant">منتج فريد</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Feature Section (Three Pillars) -->
+<section class="py-24 container mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="text-center max-w-2xl mx-auto mb-20">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">ماذا نقدم لكِ؟</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">نوفر بيئة متكاملة تدعم رحلتك الإبداعية من البداية وحتى وصول منتجك للعميل.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Pillar 1 -->
+<div class="group p-8 bg-white rounded-2xl hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-surface-container">
+<div class="w-16 h-16 bg-primary-fixed rounded-xl flex items-center justify-center mb-6 text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-4xl" data-icon="trending_up">trending_up</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">تسويق احترافي</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                    نبرز جمال أعمالك من خلال تصوير احترافي وحملات تسويقية تستهدف الجمهور الصحيح لزيادة مبيعاتك.
+                </p>
+</div>
+<!-- Pillar 2 -->
+<div class="group p-8 bg-white rounded-2xl hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-surface-container">
+<div class="w-16 h-16 bg-secondary-fixed rounded-xl flex items-center justify-center mb-6 text-secondary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-4xl" data-icon="groups">groups</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">مجتمع مبدع</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                    انضمي إلى شبكة من الصبايا المبدعات، تبادلي الخبرات، وكوني جزءاً من مجتمع يدعم شغفك ويحفزك.
+                </p>
+</div>
+<!-- Pillar 3 -->
+<div class="group p-8 bg-white rounded-2xl hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-surface-container">
+<div class="w-16 h-16 bg-tertiary-fixed rounded-xl flex items-center justify-center mb-6 text-tertiary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-4xl" data-icon="rocket_launch">rocket_launch</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">وصول للعملاء</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                    نحن نوفر لكِ المنصة واللوجستيات اللازمة لتصل قطعك الفنية لكل من يبحث عن التميز والجودة اليدوية.
+                </p>
+</div>
+</div>
+</section>
+<!-- Gallery Section (Bento Style) -->
+<section class="py-24 bg-surface-container-highest">
+<div class="container mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="flex justify-between items-end mb-12">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">معرض الأعمال</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">لمحات من إبداعات صبايا "أثر"</p>
+</div>
+<div class="flex gap-2">
+<button class="p-2 border border-outline rounded-full text-outline hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+<button class="p-2 border border-outline rounded-full text-outline hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-4 h-[800px] md:h-[600px]">
+<div class="md:col-span-2 md:row-span-2 relative group overflow-hidden rounded-2xl">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="An exquisite, high-end collection of handmade ceramic vases and bowls displayed on a minimalist white shelf. Each piece features a unique organic texture and earthy glaze colors like terracotta and sand. The lighting is soft and diffused, creating a serene and sophisticated atmosphere typical of a professional craft gallery in a modern light-mode setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuh8K9NrfwDGFSLhm8HWWECAUdszo-mlquP88aQKf8SL2ThcKSfngVOV8qWYQ-dwpqQ4-YXbbqRVrkCC7mfgtkwtjEM3ZKkert3x2XJmoRiyUwAkkAVjKRRCWDMegtT56O0OIXDJoZRtGuMZvNWJU9F0gExlGvd6YUGNNESiSwIEdxWhDnnKWLbf5UUV-TiTeJRV3_fZ9BzW5QBBCXuRQoIVhGnrc6X_vroy3auIBP1Xkgtz9AyeRokqRlr9MDgE8lBQEkT1IQV7al">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="text-white font-label-sm uppercase tracking-widest">Ceramics</span>
+<h4 class="text-white font-headline-md">خزفيات عصرية</h4>
+</div>
+</div>
+<div class="md:col-span-1 md:row-span-1 relative group overflow-hidden rounded-2xl">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="A detailed, macro photograph of a handcrafted silver necklace with delicate filigree work and a polished gemstone. The jewelry rests on a soft, natural linen cloth, bathed in warm, directional light that creates subtle shadows. The aesthetic is luxurious yet artisanal, featuring a palette of silver and soft beige, perfect for a high-end crafts platform." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCZ-TTCc0kIoouwMMlou13moPQdIA2iIGSAREWrlLpzMv1XjvDsfTPNFzS0G1gvArAL_R0BkFLhpaZX1tBLlj5Ed89UX7cUZjItozXS4rCTCZXzkGWPGLwc9G7rUmzd3_PjZ3HXhtuEhS6jBtu5cID2UlCqNderrMrpMkeETkMdv6yE-ymO-2RGI2C0AionfkjoBWJuJaTKvT30yiuYl7XDlZZfbR2FibDr2-HoxJ1P60vb3bfxhuV9vZlppS2qkr5YsK9f59GDYz-">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-4 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="text-white font-label-sm">Jewelry</span>
+</div>
+</div>
+<div class="md:col-span-1 md:row-span-2 relative group overflow-hidden rounded-2xl">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="A vibrant display of artisanal woven textiles and blankets featuring complex geometric patterns. The fabrics are draped elegantly over wooden ladders in a bright, airy studio. The colors are inspired by botanical dyes, showing rich terracotta, sage green, and deep indigo. The photography style is modern and clean, capturing the tactile quality of the handmade fabrics." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLc0wav1bmjlidqk1SSksAphUpmFegxsW5n_VGrqnL5HryNVREG3wgv3ovB5SdzsgQRgiKn3TSUFkSH5lIKz2g0L9RNTp0lpNGt6-if8kNE45s5-Irux-xEAaziLFZF3gvmpMp3ct_VxwpBepK5_TjoW3azzkCQhLRFGIA02qXlqMGky_ieFUAOzl_t0yZvDbBCivyva6bMy0yEX2uiA76KXmTK-y3ObhshCEnzBOxCVb8qjiIJzWV06Pg1ugkaec5Px0Qf1TVJkGw">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="text-white font-label-sm">Textiles</span>
+<h4 class="text-white font-headline-md">منسوجات تراثية</h4>
+</div>
+</div>
+<div class="md:col-span-1 md:row-span-1 relative group overflow-hidden rounded-2xl">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="A beautiful close-up of handmade earrings made with wood and resin, featuring embedded gold flakes. The earrings are presented on a minimalist ceramic dish. The scene is illuminated by soft daylight, emphasizing the clarity of the resin and the warmth of the wood. The color palette is modern and warm, aligning with the Athar brand identity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNLTHm-1OcotmynEHdVs4iMnnO-j6wzwpQFf-ARhP2yCwMXqxORf9-ujE9qI2XDzbHnG3ETLkyQuOMq_AFS2cM-Gi_VLjEetgPRPq0VWCFfDHLaXpSinj7iGFCQmXaaM-H__BOnvOYSd_6-FNWqK8sJUG7ZxUArGQeUnRqg1gHfFQwuLbd79jYOGgs2HpIRybuNZeY0iaoqEfuwQvP6DNvbYHTV8O4_2kCWGMK_oDqSKvkhy7KLrRtOyf6-Eyb0dPdJVYpzEeLRVx4">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-4 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="text-white font-label-sm">Handicrafts</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full mt-20 bg-surface-container-highest">
+<div class="flex flex-col md:flex-row justify-between items-center px-margin-mobile md:px-margin-desktop py-12 max-w-container-max mx-auto border-t border-outline-variant/20">
+<div class="flex flex-col items-center md:items-start gap-4 mb-8 md:mb-0">
+<img alt="Athar Logo" class="h-12 w-auto transition-all" src="https://lh3.googleusercontent.com/aida/AP1WRLvg1xuvab3Yn0c4jwwuAZoStNu_9WDKA8SqadqUbuEeSvB0NkRlDYhr61dcQKw2vkctucnKYD3DD9bTDNI4RoTNdwdFaxdhrDjcl_x1DTfS5tCte08PQZx1u3c0rLfsAiTxJZHloFr5W1PqiOWtnmCZ0uqUb3KtHF-8xUHBXbMyCY1FoPnlZ-dFDzA4OaFUyc-IwGsoBpLkDYOGqSmjh4U6m6oKudDm7nNkOg3Nk3EXU3BsIg6aF33vD0E">
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xs text-center md:text-right">©2026 أثر. تخليد أثر المشغولات اليدوية.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+
+
+
+
+
+</div>
+<div class="flex gap-4">
+    <a href="https://www.instagram.com/atharps2026/#" target="_blank" class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-primary hover:text-white transition-all cursor-pointer" title="انستغرام أثر">
+        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+        </svg>
+    </a>
+    
+    <a href="#" class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-primary hover:text-white transition-all cursor-pointer" title="مشاركة الموقع">
+        <span class="material-symbols-outlined text-lg">share</span>
+    </a>
+</div>
+</div>
+</div>
+<div class="text-center py-6 border-t border-outline-variant/10">
+<span class="font-label-sm text-label-sm text-on-surface-variant/60"><div _ngcontent-ng-c2858825295="" class="container"><message-content _ngcontent-ng-c2858825295="" _nghost-ng-c1603615920="" id="message-content-id-r_645d3f513eef0c25" class="ng-star-inserted"><div _ngcontent-ng-c1603615920="" inline-copy-host="" class="markdown markdown-main-panel enable-updated-hr-color" id="model-response-message-contentr_645d3f513eef0c25" aria-live="polite" aria-busy="false" dir="rtl" style="--animation-duration: 400ms; --fade-animation-function: ease-out;"><p data-path-to-node="0"></p></div></message-content><!----></div><b data-path-to-node="0" data-index-in-node="0">صُنِعَ بِحُبٍّ لِدَعْمِ إِبْدَاعِ نِسَاءِ قِطَاعِ غَزَّةَ</b>&nbsp;</span>
+</div>
+</footer>
+<script>
+        // Smooth scroll implementation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Intersection Observer for fade-in effects
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-on-scroll').forEach((el) => {
+            el.classList.add('opacity-0', 'translate-y-10', 'transition-all', 'duration-700');
+            observer.observe(el);
+        });
+    </script>
+
+
+
+
+
+
+</body></html>
